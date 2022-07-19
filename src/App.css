@@ -51,6 +51,7 @@ button {
 #navbar h1 {
   color: var(--light);
 }
+
 #navbar h1:hover {
   transform: rotate(360deg);
   transition: 1s;
@@ -78,6 +79,7 @@ li {
   text-decoration: none;
   color: var(--primary);
 }
+
 #navbar a:hover {
   font-weight: bolder;
   color: var(--light);
@@ -146,7 +148,6 @@ li {
   background-size: contain;
   display: flex;
   flex-direction: column;
-  justify-content: end;
   z-index: 1;
 }
 
@@ -170,6 +171,7 @@ li {
   width: 100%;
   z-index: 3;
 }
+
 .hov:hover {
   opacity: 1;
   display: flex;
@@ -192,12 +194,14 @@ li {
     margin-bottom: 15px;
     transition: 1s;
   }
+
   #navbar ul,
   li {
     width: 100%;
     display: flex;
     justify-content: space-around;
   }
+
   #navbar .container {
     flex-direction: column;
   }
