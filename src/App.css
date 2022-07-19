@@ -121,6 +121,71 @@ li {
   z-index: 1;
 }
 
+/* categories style */
+
+.title {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.underline {
+  height: 2px;
+  background-color: var(--dark);
+}
+
+.cardItem {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  border: 2px solid var(--dark);
+  background-image: url(../public/images/brand.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  z-index: 1;
+}
+
+.afterCard {
+  height: 80px;
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: rgba(51, 51, 51, 0.473);
+}
+
+.hov {
+  opacity: 0;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 3;
+}
+.hov:hover {
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(51, 51, 51, 0.466);
+}
+
+.cardList {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
 @media (max-width: 758px) {
   #navbar h1 {
     text-align: center;

@@ -1,4 +1,5 @@
 import "./App.css";
+import Categories from "./components/Categories";
 import Navbar from "./components/Navbar";
 import Showcase from "./components/Showcase";
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <Navbar />
       <Showcase />
+      <Categories />
       <p style={{ textAlign: "center" }}>Development...</p>
     </>
   );
