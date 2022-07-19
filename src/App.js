@@ -7,6 +7,7 @@ function App() {
     <>
       <Navbar />
       <Showcase />
+      <p style={{ textAlign: "center" }}>Development...</p>
     </>
   );
 }
