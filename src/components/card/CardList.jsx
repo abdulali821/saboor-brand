@@ -32,7 +32,7 @@ const CardList = () => {
   return (
     <div className='cardList'>
         {array.map((card)=>(
-            <CardItem name={card.name} id={card.id} price={card.price}/>
+            <CardItem key={card.id} name={card.name} id={card.id} price={card.price}/>
         ))}
     </div>
   )
