@@ -2,6 +2,7 @@ import React from "react";
 import CardItem from "./CardItem";
 
 const CardWholesaleList = () => {
+  const img = "/images/brand-1.png";
   let array = [
     {
       name: "Ittehad",
@@ -38,6 +39,7 @@ const CardWholesaleList = () => {
     <div className="cardList">
       {array.map((card) => (
         <CardItem
+          img={img}
           key={card.id}
           name={card.name}
           id={card.id}

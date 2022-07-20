@@ -9,6 +9,7 @@
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -139,12 +140,9 @@ li {
 
 .cardItem {
   position: relative;
-  height: 250px;
+  height: 300px;
   width: 250px;
   border: 2px solid var(--dark);
-  background-image: url(../public/images/brand.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: end;
