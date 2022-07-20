@@ -28,6 +28,31 @@ const CardList = () => {
       id: 5,
       price: 1000,
     },
+    {
+      name: "Ittehad",
+      id: 6,
+      price: 1000,
+    },
+    {
+      name: "Ittehad",
+      id: 7,
+      price: 1000,
+    },
+    {
+      name: "Ittehad",
+      id: 7,
+      price: 1000,
+    },
+    {
+      name: "Ittehad",
+      id: 8,
+      price: 1000,
+    },
+    {
+      name: "Ittehad",
+      id: 9,
+      price: 1000,
+    },
   ];
   return (
     <div className="cardList">
