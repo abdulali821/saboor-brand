@@ -120,7 +120,6 @@ li {
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
-  z-index: 1;
 }
 
 /* categories style */
@@ -143,9 +142,9 @@ li {
   height: 250px;
   width: 250px;
   border: 2px solid var(--dark);
-  background-image: url(../public/images/brand.png);
+  background-image: url(../public/images/brand.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: end;
@@ -153,7 +152,6 @@ li {
 }
 
 .afterCard {
-  height: 80px;
   width: 100%;
   position: absolute;
   z-index: 2;
@@ -161,8 +159,8 @@ li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: #fff;
-  background-color: rgba(51, 51, 51, 0.473);
+  color: var(--primary);
+  background-color: rgba(0, 0, 0, 0.295);
 }
 
 .hov {
@@ -182,6 +180,7 @@ li {
 }
 
 .cardList {
+  margin-top: 30px;
   display: flex;
   flex-shrink: auto;
   gap: 10px;

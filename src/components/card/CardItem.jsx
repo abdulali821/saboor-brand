@@ -4,9 +4,10 @@ const CardItem = (props) => {
   return (
     <div className="cardItem">
       <div className="afterCard">
-        <h4>Brand Name: {props.name}</h4>
-        <h4>ID: {props.id}</h4>
-        <h4>Price: {props.price}/-</h4>
+        <h5>Brand Name: {props.name}</h5>
+        <h5>ID: {props.id}</h5>
+        <h5>Price: {props.price}/-</h5>
+        <h5>Quantity: {props.quantity}</h5>
       </div>
       <div className="hov">
         <button>VIEW</button>
