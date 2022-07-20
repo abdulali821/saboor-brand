@@ -28,42 +28,6 @@ const CardRetailList = () => {
       price: 1000,
       quantity: 1,
     },
-    {
-      name: "Ittehad",
-      id: 5,
-      price: 1000,
-      quantity: 1,
-    },
-    {
-      name: "Ittehad",
-      id: 6,
-      price: 1000,
-      quantity: 1,
-    },
-    {
-      name: "Ittehad",
-      id: 7,
-      price: 1000,
-      quantity: 1,
-    },
-    {
-      name: "Ittehad",
-      id: 7,
-      price: 1000,
-      quantity: 1,
-    },
-    {
-      name: "Ittehad",
-      id: 8,
-      price: 1000,
-      quantity: 1,
-    },
-    {
-      name: "Ittehad",
-      id: 9,
-      price: 1000,
-      quantity: 1,
-    },
   ];
   return (
     <div className="cardList">
