@@ -14,6 +14,7 @@ const Categories = () => {
   };
   return (
     <>
+      {console.log("HELLOW")}
       <div id="categories">
         <div className="container">
           <div className="title">

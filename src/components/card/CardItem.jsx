@@ -16,7 +16,7 @@ const CardItem = (props) => {
         <h5>Quantity: {props.quantity}</h5>
       </div>
       <div className="hov">
-        <button>VIEW</button>
+        <button onClick={{}}>VIEW</button>
       </div>
     </div>
   );

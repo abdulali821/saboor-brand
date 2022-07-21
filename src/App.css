@@ -145,7 +145,7 @@ li {
   border: 2px solid var(--dark);
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: flex-end;
   z-index: 1;
 }
 
@@ -184,6 +184,17 @@ li {
   gap: 10px;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+/* footer style */
+
+.footer {
+  width: 100%;
+  background-color: var(--dark);
+  color: var(--light);
+  margin-top: 20px;
+  padding: 20px;
+  text-align: center;
 }
 
 @media (max-width: 758px) {
